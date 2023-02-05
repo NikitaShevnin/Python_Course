@@ -19,10 +19,10 @@ sum = int (x+y)
 prod = int (x*y)
 
 #Катя отвечает
-sum_0 = (x-y)
-prod_0 = (x/y)
+sum_1 = (x-y)
+prod_1 = (x/y)
 
 print ("Катин ответ сумма: ", end='')
-print (sum_0)
+print (sum_1)
 print ("Катин ответ произведение: ", end='')
-print (prod_0)
+print (prod_1)
