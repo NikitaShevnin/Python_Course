@@ -1,6 +1,10 @@
-l = [5, 78, 45, 12, 56, 99]
-
-def nearest(lst, target):
-  return min(lst, key=lambda x: abs(x-target))
-
-print(nearest(l, 17))
+def fun(x):
+    for key in dct:
+        if x in key:
+            return dct.get(key)
+ 
+dct = {
+    'AEIOULNSTR' : 1, 'DG' : 2, 'BCMP' : 3,
+    'FHVWY' : 4, 'K' : 5, 'JX' : 8, 'QZ' :10
+    }
+print(sum(map(fun, input())))
