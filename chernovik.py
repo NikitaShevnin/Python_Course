@@ -1,3 +1,6 @@
-A = [int(i) for i in input().split()] #заполним список
-X = int(input()) #пользователь вводит число, количество вхождений которого нужно подсчитать
-print(A.count(X)) #выводим количество вхождений числа X в список A
+l = [5, 78, 45, 12, 56, 99]
+
+def nearest(lst, target):
+  return min(lst, key=lambda x: abs(x-target))
+
+print(nearest(l, 17))
