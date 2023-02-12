@@ -5,7 +5,7 @@
 list1 = [11,6,2,4,6,8,10,12,10]
 list2 = [8,6,4,2,3,6,9,12,5,18,6,12]
 list3 = list1+list2
-list3.sort () # Сортируем по возрастанию
+list3.sort () # Сортируем по возрастанию от min к max
 
 from itertools import groupby
 x = list3
