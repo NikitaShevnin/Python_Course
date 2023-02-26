@@ -6,7 +6,7 @@ a = []
 for i in range(N):
     b = []
     for j in range(M):
-        n = int(random() * 200)
+        n = int()
         b.append(n)
         print('%4d' % n, end='')
     a.append(b)
@@ -29,15 +29,15 @@ for i in range(N):
 
 # ---------------------------------------------
 
-stroki = 3
-stolb = 5
-r = 0  # Чтобы было, чем заполнять
-mas = []
-for i in range(stroki):
-    mas.append([])
-    for j in range(stolb):
-        mas[i].append(r)
-        r += 1  # Чтобы заполнялось не одно и тоже
+# stroki = 3
+# stolb = 5
+# r = 0  # Чтобы было, чем заполнять
+# mas = []
+# for i in range(stroki):
+#     mas.append([])
+#     for j in range(stolb):
+#         mas[i].append(r)
+#         r = i*j  # Чтобы заполнялось не одно и тоже
 
-print(mas)
+# print(mas)
 # [[0, 1, 2, 3, 4], [5, 6, 7, 8, 9], [10, 11, 12, 13, 14]]
